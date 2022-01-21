@@ -1,0 +1,13 @@
+{
+  "orgName": "CactusForce2022 Demo",
+  "edition": "Developer",
+  "features": ["Communities", "Functions", "EnableSetPasswordInApi"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  }
+}
