@@ -32,7 +32,7 @@ public class ProcessimageFunction implements SalesforceFunction<FunctionInput, F
   @Override
   public FunctionOutput apply(InvocationEvent<FunctionInput> event, Context context) throws Exception {
 
-    LOGGER.debug("### in ProcessimageFunction.apply()");
+    LOGGER.info("### in ProcessimageFunction.apply()");
 
     FunctionOutput output = null;
 

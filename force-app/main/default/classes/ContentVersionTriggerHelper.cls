@@ -2,12 +2,12 @@
  * @description       : 
  * @author            : AlanPetersen
  * @group             : 
- * @last modified on  : 01-16-2022
+ * @last modified on  : 01-21-2022
  * @last modified by  : AlanPetersen
 **/
 public with sharing class ContentVersionTriggerHelper {
 
-    private static final String PROCESS_IMAGE_FUNCTION = 'MyProject.processimage';
+    private static final String PROCESS_IMAGE_FUNCTION = 'FunctionsDemo.processimage';
 
     @future
     public static void processJpgImages(List<Id> versionIds) {
