@@ -31,6 +31,7 @@ public with sharing class ContentVersionTriggerHelper {
 
             Map<String,Object> responseMap = (Map<String,Object>)JSON.deserializeUntyped(jsonResponse);
 
+            // create a new version with the returned data
             ContentVersion cv2 = new ContentVersion(
                 ContentDocumentId = (String)responseMap.get('contentDocumentId'),
                 Title = (String)responseMap.get('title'),
