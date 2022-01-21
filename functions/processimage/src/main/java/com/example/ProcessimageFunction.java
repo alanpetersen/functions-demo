@@ -71,7 +71,7 @@ public class ProcessimageFunction implements SalesforceFunction<FunctionInput, F
       );
       
     } catch (Exception ex) {
-      System.out.println("##### CAUGHT EXCEPTION");
+      LOGGER.error("##### CAUGHT EXCEPTION");
       ex.printStackTrace();
     }
 
